@@ -31,11 +31,9 @@ def createMatrix(key):
                     matrix[i][j] = a
                     a += chr(ord(a) + 1)
                     alphabet[a - 97] == True #mark the letter as used
-                
-        
-        
+         
     return matrix
-    
+#===================================================================================================================    
 
 plaintext = list(input("Enter the Plaintext: "))
 key = list(input("Enter the keyword: "))
